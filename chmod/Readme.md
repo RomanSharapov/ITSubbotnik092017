@@ -1,0 +1,3 @@
+Somebody accidentally run `chmod -x /bin/chmod`...
+
+Run `docker run -it romansharapov/itsubbotnik:chmodtask bash` and fix it

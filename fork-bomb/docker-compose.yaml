@@ -1,0 +1,7 @@
+bomb:
+    image: python:alpine
+    volumes:
+        - ./code:/code
+    mem_limit: 128m
+
+    command: python /code/bomb.py
